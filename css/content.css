@@ -1,0 +1,20 @@
+h3{
+	font-size:'微软雅黑';
+	font-size:20px;
+	color:#686868;
+	font-weight:normal;
+	text-align:center;
+}
+h6{
+	font-size:12px;
+	font-family:Arial;
+	color:#a9a8a8;
+	font-weight:normal;
+	text-align:center;
+}
+.special{
+	color:#22a3d3;
+}
+p{
+	text-indent:2em;
+}
