@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>导航</title>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+	*{
+		margin:0px;
+		padding:0px;
+	}
+	
+	#titlediv{
+		height: 40px;
+		padding-top: 10px;
+		padding-left: 40px;
+		background: url(image/left_nav_title.gif) no-repeat;
+		color:white;
+		
+	}
+	ul {
+
+		list-style:inside url(image/left_cur.gif);
+		
+
+
+	}
+	li{
+		padding-left: 20px;
+		background:url(image/baibiaoti.png) no-repeat;
+	}
+	a{
+		text-decoration: none;
+	}
+	.checked a{
+		color: red;
+	}
+	#footerdiv{
+		height: 35px;
+		background: url(image/left_nav_bottom.gif) no-repeat;
+	}
+	</style>
+</head>
+<body>
+<div class="menu">
+	<div id ="titlediv">产品列表</div>
+	<ul>
+		<li class="checked"><a href="#">最新产品</a></li>
+		<li><a href="#">临床产品</a></li>
+		<li><a href="#">技术产品</a></li>
+	</ul>
+	<div id="footerdiv"></div>
+</div>
+</body>
+</html>
